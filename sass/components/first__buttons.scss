@@ -1,13 +1,16 @@
-@import "../variables.scss";
+@import "../utils/mixins";
+@import "../utils/variables";
+
 .first__button{
     margin-left: 20px;
+    width: 270px;
 
     &-products{
         // button
         width: 107px;
         height: 40px;
         left: 16px;
-        top: 308px;
+        margin-top: 24px;
         background-color:$fourth-background-color;
         border-radius: 20px;
         border:0;
@@ -34,8 +37,8 @@
     cursor: pointer;
 
     // text
-       @include font-DM;
-       font-style: normal;
+    @include font-DM;
+    font-style: normal;
         font-weight: 400;
         font-size: 14px;
         line-height: 18px;

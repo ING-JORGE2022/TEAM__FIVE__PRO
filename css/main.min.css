@@ -1,9 +1,27 @@
 .first {
   background-color: #FFB8CA;
 }
-.first__paragraph {
-  font-family: "DM Sans";
-  text-align: justify;
+
+.first__title {
+  margin-left: 20px;
+  width: 270px;
+  margin-top: 30px;
+  line-height: 44px;
+  font-size: 38px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  font-family: "Titan One", cursive;
+  text-transform: uppercase;
+  margin-top: 74px;
+  color: #FFFFFF;
+}
+.first__title-color {
+  line-height: 90.5%;
+  font-size: 400;
+  font-weight: 58px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #D41443;
 }
 
 .header {
@@ -22,13 +40,13 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 21px;
-  margin-top: 37px;
+  margin-top: 52px;
 }
 .header__item:hover {
   color: #D41443;
 }
 .header__logo {
-  margin-top: 37px;
+  margin-top: 40px;
   margin-left: 20px;
 }
 .header__button {
@@ -53,36 +71,15 @@
   background-color: #ECEBEB;
 }
 
-.first__title {
-  margin-left: 20px;
-  font-family: "Titan One", cursive;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 38px;
-  line-height: 44px;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  margin-top: 60px;
-  color: #FFFFFF;
-}
-.first__title-color {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 58px;
-  line-height: 90.5%;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: #D41443;
-}
-
 .first__button {
   margin-left: 20px;
+  width: 270px;
 }
 .first__button-products {
   width: 107px;
   height: 40px;
   left: 16px;
-  top: 308px;
+  margin-top: 24px;
   background-color: #D41443;
   border-radius: 20px;
   border: 0;
@@ -118,7 +115,187 @@
 }
 
 .first__img-milk {
-  margin-left: 20px;
+  margin-top: 40px;
+  margin-left: 16px;
+}
+
+.imagen-elipse {
+  position: absolute;
+}
+
+.footer {
+  background-color: #212121;
+}
+
+.footer .seccion {
+  background-color: #fff5f6;
+  width: 100%;
+  height: 877px;
+}
+
+.helado {
+  color: aqua;
+}
+
+.sobelo {
+  color: aqua;
+}
+
+.cards {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 16px 0 16px;
+}
+
+.card {
+  width: 368px;
+  padding: 40px;
+  box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+  border-radius: 24px;
+  background-color: #fff;
+}
+
+.hr {
+  width: 100%;
+  height: 8px;
+  color: brown;
+}
+
+.card__button {
+  border-radius: 6px;
+  border-style: none;
+}
+
+.card__button--one {
+  width: 75.1px;
+  height: 28px;
+  left: 56px;
+  top: 3917px;
+  background: #F0D1A5;
+  border-radius: 6px;
+  margin-bottom: 32px;
+}
+
+.card__button--two {
+  width: 138px;
+  height: 28px;
+  left: 456px;
+  top: 3917px;
+  background: #C2E297;
+  margin-bottom: 32px;
+}
+
+.card__button--tree {
+  width: 73px;
+  height: 28px;
+  background: #F0D1A5;
+  margin-bottom: 32px;
+}
+
+.titulos {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 186%;
+  /* identical to box height, or 30px */
+  letter-spacing: 0.04em;
+  color: #000000;
+}
+
+.lorem {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 183%;
+  /* or 29px */
+  letter-spacing: 0.04em;
+  color: #907E82;
+  margin-bottom: 32px;
+}
+
+.dias {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 186%;
+  /* identical to box height, or 30px */
+  letter-spacing: 0.04em;
+  color: #000000;
+}
+
+.hora {
+  margin-bottom: 12px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  /* identical to box height, or 30px */
+  color: #FFA5BA;
+}
+
+.hora--hr {
+  margin-bottom: 32px;
+}
+
+.numero {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 183%;
+  /* or 29px */
+  color: #907E82;
+}
+
+address {
+  margin-top: 32px;
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  gap: 12px;
+}
+
+.locacion {
+  width: 198px;
+  height: 44px;
+  left: 411px;
+  top: 4475px;
+  border-style: none;
+  background: #D41342;
+  border-radius: 22px;
+}
+
+.francisco {
+  width: 168px;
+  height: 44px;
+  left: 621px;
+  top: 4476px;
+  border-style: none;
+  background: #FFFFFF;
+  border-radius: 22px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=main.min.css.map */
